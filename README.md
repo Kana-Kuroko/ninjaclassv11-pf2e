@@ -1,4 +1,4 @@
-# ninjaClass-pf2e
+# ninja-pf2e
 A new ninja class for Pathfinder 2nd Edition!
 
 Hello, and thank you you giving the Ninja class a try! Below you will be able to see any known issues with the class and any updates to the module that happen. If you encounter a problem feel free to let me know on Discord, Kana#0135. I hope you enjoy!
