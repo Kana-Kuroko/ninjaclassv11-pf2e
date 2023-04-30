@@ -1,0 +1,91 @@
+{
+  "id": "ninja",
+  "title": "Ninja",
+  "description": "A module for the Ninja class.",
+  "flags": {
+    "ninja": {
+     "ninja": {
+      "featTraits": {
+        "marked": {
+          "label": "Marked",
+          "description": "Techniques with the marked trait gain their power by interacting with the occult magic of your Shinobi's Mark. As such, they can only be used against a creature you have designated as your Shinobi's Mark target."
+          }
+         }
+        }
+       }
+      },
+  "version": "1.0",
+  "authors": [
+    {"name": "Kana Kuroko"}
+  ],
+  "compatibility": {
+    "minimum": "10.265",
+    "verified": "10.265"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.2.6"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Ninja - Feats",
+      "type": "Item",
+      "name": "ninja-feats",
+      "path": "./packs/ninja-feats.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    },
+    {
+      "label": "Ninja - Spells",
+      "type": "Item",
+      "name": "ninja-spells",
+      "path": "./packs/ninja-spells.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    },
+    {
+      "label": "Ninja - Class",
+      "type": "Item",
+      "name": "ninja-class",
+      "path": "./packs/ninja-class.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    },
+    {
+      "label": "Ninja - Actions",
+      "type": "Item",
+      "name": "ninja-actions",
+      "path": "./packs/ninja-actions.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    },
+    {
+      "label": "Ninja - Class Features",
+      "type": "Item",
+      "name": "ninja-classfeatures",
+      "path": "./packs/ninja-classfeatures.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    },
+    {
+      "label": "Ninja - Equipment",
+      "type": "Item",
+      "name": "ninja-equipment",
+      "path": "./packs/ninja-equipment.db",
+      "system": "pf2e",
+      "package": "ninja",
+      "private": false
+    }
+	]
+}
