@@ -3,18 +3,6 @@
   "title": "Ninja",
   "description": "A module for the Ninja class.",
   "url": "https://github.com/Kana-Kuroko/ninjaClass-pf2e",
-  "flags": {
-    "ninja": {
-     "ninja": {
-      "featTraits": {
-        "marked": {
-          "label": "Marked",
-          "description": "Techniques with the marked trait gain their power by interacting with the occult magic of your Shinobi's Mark. As such, they can only be used against a creature you have designated as your Shinobi's Mark target."
-          }
-         }
-        }
-       }
-      },
   "version": "1.0",
   "authors": [
     {"name": "Kana Kuroko"}
